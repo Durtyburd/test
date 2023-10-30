@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ostaa</title>
+  </head>
+  <body>
+    <h1>Add User</h1>
+    <form method="post" action="">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" required /><br />
+
+      <input id="userSubmit" type="submit" value="Add User" />
+    </form>
+
+    <h1>Add Item</h1>
+    <form action="" method="post">
+      <label for="title">Title:</label><br />
+      <input type="text" id="title" name="title" required /><br />
+
+      <label for="description">Description:</label><br />
+      <textarea id="description" name="description" required></textarea><br />
+
+      <label for="image">Image:</label><br />
+      <input type="text" id="image" name="image" /><br />
+
+      <label for="price">Price:</label><br />
+      <input type="number" id="price" name="price" step="0.01" required /><br />
+
+      <label for="status">Status:</label><br />
+      <input type="text" id="status" name="status" /><br />
+
+      <label for="usernameItem">Username:</label><br />
+      <input type="text" id="usernameItem" name="username" required /><br />
+
+      <input id="itemSubmit" type="submit" value="Add Item" />
+    </form>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
